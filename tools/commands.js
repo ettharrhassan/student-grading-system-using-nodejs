@@ -9,10 +9,13 @@ const students = loadStudentData();
         console.log('ID Used')
     } 
     else {
+        total=0
+        degree.forEach((el)=>total+=el)
         students.push({
             id,
             name,
             degree,
+            total
         })
         saveStudentData(students)
         console.log('Data Saved Successfully')  
@@ -87,6 +90,7 @@ const saveStudentData = (data) => {
     const saveJson = JSON.stringify(data)
     fs.writeFileSync('student.json', saveJson)
 }
+
 
 
 module.exports = {

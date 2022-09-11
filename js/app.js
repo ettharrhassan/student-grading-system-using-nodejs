@@ -70,6 +70,7 @@ yargs.command({
     }
 })
 
+
 yargs.command({
     command:'update',
     describe:'Update Student Data',

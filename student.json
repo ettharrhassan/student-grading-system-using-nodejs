@@ -1,17 +1,1 @@
-[
-    {
-    "id":1,
-    "name":"Riham"
-    ,"degree":["[64,5,100]"]
-    }
-    ,{
-        "id":8,
-        "name":"layla",
-        "degree":["[92,65,88]"]
-    },
-    {
-        "id":5,
-        "name":"Ahmed",
-        "degree":["[98,100,83]"]
-    }
-    ]
+[{"id":1,"name":"Riham","degree":["[64,5,100]"]},{"id":8,"name":"layla","degree":["[92,65,88]"]},{"id":5,"name":"Ahmed","degree":["[98,100,83]"]},{"id":18,"name":"riham","degree":[32,10,98],"total":140}]
